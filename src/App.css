@@ -1,0 +1,294 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@500&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@500&family=Roboto:wght@500&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Nunito&family=Poppins:wght@500&family=Roboto+Condensed:wght@300&family=Roboto:wght@500&display=swap');
+
+body{
+  background-color: rgb(192, 205, 223);;
+}
+.cname{
+  color : brown;
+  position : absolute;
+  
+}
+.description{
+  position : absolute;
+  top : 40%;
+  left : 29%;
+  color : #ffffff;
+  font-size: 50px;
+  font-family: 'Poppins', sans-serif;
+  letter-spacing: 7px;
+  
+  
+}
+
+.quotes{
+  position : absolute;
+  top : 50%;
+  left : 36%;
+  font-size: 30px;
+  color: #16aeeb;
+  letter-spacing: 3px;
+}
+
+span{
+  position : absolute;
+  top : 05px;
+  left : 45px;
+} 
+.tagline
+{
+  position : absolute;
+  top : 75%;
+  left : 33%;
+  font-size: 20px;
+  color : white;
+  font-family: 'Nunito', sans-serif;
+  letter-spacing: 2px;
+  line-height: 2;
+
+}
+
+.wrap{
+  display : flex;
+}
+
+.full
+{
+  
+  width : 80%;
+  margin : auto;
+  margin-bottom: 45px;
+}
+
+.details
+{
+  text-align: justify;
+}
+.details p{
+  font-family:  'Montserrat', sans-serif;
+  line-height: 2;
+  letter-spacing: 1.5px;
+  font-weight: 3  00;
+}
+.admin{
+  height: 100px;
+  align-items: center;
+}
+button{
+  outline: none;
+  background-color: rgb(212, 222, 235);
+  border: 2px groove rgb(164, 99, 167);
+  width: 100px;
+  border-radius: 15%;
+  padding: 10px;
+  margin-left: 50%;
+  transition: 1s;
+
+  
+}
+button:hover{
+  background-color: #a6b6e9;
+  border: 3px groove rgb(241, 114, 235);
+}
+button a{
+  outline: none;
+  color: #e41b00;
+  font-family: 'Roboto',sans-serif;
+  text-decoration: none;
+}
+button a:hover{
+  color: #b84343;
+  
+}
+
+
+
+/* FOUNDERS */
+
+.fnames
+{
+  text-align: center;
+  font-size: 50px;
+  padding-top: 20px;
+  color : rgb(75, 79, 92);
+  letter-spacing: 3px;
+  border: 0px solid white ;
+  border-top: 2px;
+  border-color: rgb(27, 29, 31);
+  border-style: solid;
+}
+
+.col-md-5,
+.leader .col-md-6 {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-align: justify;
+  padding: 30px;
+}
+#leaders{
+  color: rgb(31, 29, 29);
+}
+#leader-info{
+  color: rgb(77, 68, 112);
+  font-family: 'Poppins', sans-serif;
+} 
+
+.faces {
+  color: #666;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.face-img {
+  height: 50%;
+}
+.face-img img {
+  border-radius: 50%;
+}
+
+
+/* CLIENTS */
+.client-area{
+  width: 80%;
+  height: auto;
+  margin-left: 10%;
+
+}
+.client-wrapper{
+  display: inline-flex;
+  align-items: center;
+
+}
+.client-c{
+  width: 500px;
+  height: 190px;
+  display: flex;
+  margin: 30px;
+  margin-left: 25%;
+}
+#client-svg{
+  width:400px; 
+  height:300px; 
+}
+.slide{
+  width:200px;
+  height: 120px;
+  margin: 20px;
+  overflow: hidden;
+}
+
+.logo-area-slider img {
+  width: 100%;
+  height: 100%;
+}
+#client-info{
+  color: #093755;
+  letter-spacing: 2px;
+  font-family:  'Montserrat', sans-serif;
+  font-size: 17px;
+  text-align: center;
+  
+}
+
+/* FOOTER */
+
+
+footer {
+  box-sizing: border-box;
+
+  background: #191919;
+  color: white;
+  padding: 30px 30px;
+  padding-top: 60px;
+}
+
+.uppercontainer a {
+  color: gray;
+  text-decoration: none;
+}
+.uppercontainer p {
+  color: gray;
+}
+.uppercontainer a:hover {
+  color: #f15b2b;
+  text-decoration: none;
+}
+footer hr {
+  background-color: gray;
+}
+.uppercontainer li {
+  list-style: none;
+  text-align: left;
+}
+.lowercontainer h6 {
+  color: gray;
+  text-align: left;
+}
+.lowercontainer .contact {
+  display: flex;
+  color: gray;
+  align-items: center;
+  justify-content: space-evenly;
+}
+.uppercontainer a.btn {
+  box-sizing: border-box;
+  box-shadow: 2px 2px 5px black;
+  border: 2px solid gray;
+  border-radius: 0px;
+  font-weight: bold;
+  background-color: gray;
+  color: white;
+}
+.uppercontainer a.btn:hover {
+  color: white;
+  border-color: #f15b2b;
+  background-color: #f15b2b;
+}
+
+
+
+/* NAVBAR */
+
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  float : right;
+  /* border: 1px solid #e7e7e7;
+  background-color: #f3f3f3; */
+}
+
+li {
+  float: left;
+
+}
+
+li a {
+  display: block;
+  color: black;
+  text-align: center;
+  padding: 25px 30px ;
+  text-decoration: none;
+}
+
+
+.navbar-nav
+{
+  margin-left: 540px;
+  
+}
+
+
+
+.navbar-brand{
+  color : brown;
+  text-decoration: none;
+  padding: 0px 20px;
+  font-size: 40px;
+  
+}

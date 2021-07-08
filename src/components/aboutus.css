@@ -1,0 +1,161 @@
+@import url('https://fonts.googleapis.com/css2?family=Itim&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Ubuntu:wght@300&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Signika:wght@300&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Reggae+One&display=swap');
+body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  background-color: rgb(192, 205, 223);
+  -moz-osx-font-smoothing: grayscale;
+}
+.detials-cont{
+  width: 100%;
+  height: auto;
+  display: flex;
+  text-align: center;
+  justify-content: center;
+  align-items: center;
+  background-color: rgb(192, 205, 223);
+}
+.about-cont{
+  padding: 30px;
+} 
+.title h4{
+  font-size: 40px;
+  margin: 50px;
+  width: 300px;
+  padding: 15px;
+  margin-left: 25%;
+  font-family: 'Poppins', sans-serif;
+  color: rgb(95, 39, 128);
+  letter-spacing: 3px;
+  border-bottom: 3px solid black;
+}
+.content p{
+  font-family: 'Ubuntu', sans-serif;
+  font-size: 16px;
+  letter-spacing: 1.3px;
+  color: rgb(22, 22, 22);
+  font-weight : 400;
+  text-align: justify;
+}
+
+.process-cont{
+  width: 100%;
+  height: auto;
+  display: flex;
+  text-align: center;
+  justify-content: center;
+  align-items: center;
+  background-color: rgb(192, 205, 223);
+}
+.process-title h4{
+  font-size: 30px;
+  margin: 50px;
+  width: 500px;
+  padding: 15px;
+  margin-left: 10%;
+  font-family: 'Poppins', sans-serif;
+  color: rgb(216, 125, 72);
+  letter-spacing: 3px;
+  border-bottom: 3px solid rgb(98, 92, 187);
+
+}
+.process-list{
+  font-family: 'Signika', sans-serif;
+  font-size: 16px;
+  margin-left: 0;
+  width: 400px;
+  text-align: justify;
+}
+#para{
+  padding: 20px;
+  width: 400px;
+  height: 100px;
+  text-align: justify;
+}
+.photo-cont{
+  background-color:rgb(192, 205, 223) ;
+}
+.photo-title h5{
+  text-align: center;
+  font-size: 30px;
+  font-family: 'Poppins', sans-serif;
+  color: rgb(100, 66, 196);
+  letter-spacing: 2px;
+  width: 40%;
+  margin-left:30% ;
+  padding: 10px;
+  border-bottom: 2px solid rgb(224, 105, 50);
+}
+.photo-cont{
+  justify-content: center;
+  align-items: center;
+}
+.process-card-1{
+  width: 80%;
+  height: auto;
+  justify-content: center;
+  align-items: center;
+  margin-left:10%;
+  padding-left: 30px;
+  padding-right: 30px;
+  padding-top: 10px;
+  display: flex;
+}
+.photo-1{
+  width: 50%;
+  height: auto;
+  margin: 30px;
+  border-radius: 5%;
+  overflow: hidden;
+}
+#process-img1{
+  width: 100%;
+  height: auto;
+}
+#title{
+  padding: 20px;
+  font-size: 25px;
+  color: black;
+}
+#para{
+  font-size: 18px;
+  width: auto;
+  height: 300px;
+  color: rgb(98, 30, 153);
+  text-align: justify;
+}
+.Map{
+  background-color: rgb(192, 205, 223) ;
+  display: flex;
+  margin: 30px;
+  padding: 40px;
+}
+.map-content{
+  display: block;
+}
+#map-title {
+  color: blueviolet;
+  font-family: 'Roboto', sans-serif;
+  padding-top: 30px;
+  padding-left: 20px;
+}
+#map-svg{
+  width: 350px;
+  height: 300px;
+}
+#map{
+  width: 550px;
+  height: 400px;
+}
+.map-img{
+  margin-left: 250px;
+}
+
+
+
